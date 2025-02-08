@@ -15,6 +15,7 @@ div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 header {
   width: 60%;
@@ -29,13 +30,12 @@ article {
   align-content: center;
   margin: 20px 0;
   width: 67%;
+  gap: 50px;
 }
 img {
   border-radius: 15px;
-  margin: 10px 0;
 }
 div {
-  padding-left: 50px;
   align-items: start;
   justify-content: center;
 }
@@ -54,5 +54,10 @@ span {
   }
   article {
     width: 91%;
+    gap: 30px;
+  }
+  div img {
+    width: 160px;
+    height: 160px;
   }
 }
